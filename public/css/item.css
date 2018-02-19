@@ -1,0 +1,46 @@
+body {
+	padding: 70px 1em 1em 1em;
+	font-family: lucida grande, tahoma, verdana, arial, sans-serif;
+}
+
+.product img {
+	max-height: 500px;
+	max-width: auto;
+}
+
+.product > p:first-child {
+	font-weight: bold;
+	font-size: 2.5em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.price { 
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+
+.sale > .price {
+	text-decoration: line-through;
+	margin-bottom: 0px;
+	font-size: 1.3em;
+}
+
+.sale:nth-child(2), #outOfStock {
+	font-weight: bold;
+	color: red;
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+span {
+	font-family: lucida grande, tahoma, verdana, arial, sans-serif;
+	font-size: 1.6em;
+}
+
+.descriptionLabel {
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #000;
+}

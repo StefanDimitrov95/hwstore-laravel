@@ -1,0 +1,86 @@
+body {
+	font-family: lucida grande, tahoma, verdana, arial, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 70px;
+	padding-left: 1em;
+}
+
+.product {
+	float:left;
+	width:160px;
+	margin: 15px 0px 0px 20px;
+	border-width: 1px;
+	border-style: dashed;
+	border-color: #e0e0e0;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	text-align: center;
+	height: 200px;
+	padding-top: 5px;
+	position:relative;
+}
+
+.product:hover {
+	border-color: #a0a0a0;
+}
+
+.product img {
+	max-width: auto;
+	max-height: 100px;
+}
+
+.product p, 
+.product a {
+	font-size: 1em;
+	padding: 2px;
+}
+
+.product a {
+	text-decoration: none !important;
+	color: #000 !important;
+}
+
+.product p:last-child {
+	font-weight: bold;
+	font-size: 1.2em;
+	position: absolute;
+    bottom: 0;
+    left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#filter-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.filter {
+	text-align: center;
+	padding: .4em;
+	padding-right: 2em;
+}
+
+form input {
+	max-width: 100px;
+	margin: .4em;
+}
+
+.sale p:first-child {
+	text-decoration: line-through;
+	margin-bottom: 0px;
+	position: initial;
+    bottom: 0;
+    left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.sale p:last-child {
+	color: red;
+}
+
